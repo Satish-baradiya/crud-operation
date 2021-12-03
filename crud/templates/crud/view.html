@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            View
+        </title>
+    </head>
+
+    <body>
+        <ul>
+            {% for i in data %}
+            <li>{{ i.title }}</li>
+            <li>{{ i.description }}</li>
+            {% endfor %}
+
+        </ul>
+
+    </body>
+
+</html>
